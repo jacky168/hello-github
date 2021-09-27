@@ -51,3 +51,10 @@ print("memory address for name3: {}".format(hex(id(name3))))
 
 
 # %%
+names = ['Alice', 'Bob', 'Charlie']
+combined = ",".join(names)
+print(combined)
+
+# %%
+new_names = combined.split(',')
+print(new_names)
